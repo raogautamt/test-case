@@ -1,0 +1,21 @@
+# test-case<html>
+    <head>
+        <title>Vue tutorial</title>
+        <script src = "js/vue.js"></script>
+    </head>
+    <body>
+        <div id = "app">
+            {{ message }}
+        </div>
+
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello vue js!'
+                }
+            });
+        </script>
+      
+    </body>
+</html>
